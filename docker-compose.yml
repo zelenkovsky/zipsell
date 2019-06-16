@@ -1,0 +1,9 @@
+version: "3.0"
+
+services:
+  zipsell:
+    build: .
+    image: zipsell
+    container_name: zipsell
+    ports:
+      - "3000:3000"
